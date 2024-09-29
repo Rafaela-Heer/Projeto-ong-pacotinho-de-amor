@@ -31,3 +31,22 @@
     font-weight: 400;
     text-decoration: none;
 }
+
+.rodape{
+    display: flex;
+    background-color: #5C3973;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #FFF;
+}
+.rodape_link{
+    padding: 0px 10px;
+}
+.rodape_texto{
+    padding-right: 10px;
+}
+
