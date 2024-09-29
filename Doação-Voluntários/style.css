@@ -63,7 +63,7 @@ button {
 
  /*
  Observação- essa parte esta comentada para padronizar todas as páginas, esta area será usada no próximo cp.
- 
+
 main{
     display: flex;
     flex-direction: column;
@@ -135,3 +135,20 @@ main{
 #cadastro {
     padding: 180px 25px;
 }
+
+.rodape{
+    display: flex;
+    background-color: #5C3973;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #FFF;
+}
+.rodape_link{
+    padding: 0px 10px;
+}
+.rodape_texto{
+    padding-right: 10px;
