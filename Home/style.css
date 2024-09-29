@@ -58,7 +58,26 @@ h1 {
 .relato{
     margin: 20px 50px;
 }
+.titulos{
+    text-align: center;
+    margin: 20px;
+}
+form{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
 
+.preencher{
+    margin: 0px 30px;
+    margin-bottom: 20px;
+
+}
+.mensagem{
+    margin: 0px 30px;
+    margin-bottom: 20px;
+}
 
 .rodape{
     display: flex;
@@ -75,5 +94,5 @@ h1 {
     padding: 0px 10px;
 }
 .rodape_texto{
-    padding-right: 10px;
+    padding-right: 10px;
 }
