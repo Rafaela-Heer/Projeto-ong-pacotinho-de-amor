@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho{
+    background-color: #5C3973;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.cabecalho nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 37px;
+    
+}
+.cabecalho_logo{
+    padding-left: 140px;
+    padding-right: 500px;
+}
+.cabecalho_link{
+    color: #FFFBBF;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+}
