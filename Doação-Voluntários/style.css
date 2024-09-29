@@ -46,3 +46,92 @@ ul a:hover{
     transition: 0.2s ease-in;
 
 }
+
+button {
+    background-color: rgba(92, 57, 115, 1);
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: none;
+    position: absolute;
+}
+
+ /*
+ Observação- essa parte esta comentada para padronizar todas as páginas, esta area será usada no próximo cp.
+ 
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+.row{
+    width: 100%;
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+}
+
+#colabore{
+    width: 80%;
+    border-radius: 30px;
+    background: #FFFBBF;
+    padding: 20px 80px 40px 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+}
+
+#colabore h1{
+    color: rgba(92, 57, 115, 1);
+    font-size: 40px;
+}
+
+#colabore img{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 80px;
+    transform: rotate(-45deg);
+}
+
+#colabore p{
+    text-align: center;
+    width: 80%;
+    font-size: 18px;
+} 
+
+#colabore h1{
+    text-align: center;
+    width: 80%;
+    padding: 20px 80px 20px 80px;
+    
+}*/
+
+#colabore {
+    margin: 30px;
+}
+
+.container{
+    display: flex;
+    margin: 50px;
+    align-items: center;
+
+}
+
+.column{
+    flex: 1;
+    padding: 10px 20px 10px 20px;
+    height: 80px;
+    
+}
+
+#cadastro {
+    padding: 180px 25px;
+}
