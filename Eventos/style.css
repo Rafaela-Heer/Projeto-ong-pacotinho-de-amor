@@ -33,11 +33,6 @@
     
 }
 
-main{
-    font-family: Montserrat;
-    text-decoration: none;
-}
-
 .rodape{
     display: flex;
     background-color: #5C3973;
