@@ -35,13 +35,29 @@
 
 h1 {
     text-align: center;
+    margin: 20px;
 }
 .quem_somos{
     text-align: center;
 
     margin: 20px 200px;
 }
+.nosso_objetivo{
+    text-align: center;
 
+    margin: 20px 200px;
+}
+.relatos{
+    text-align: center;
+    margin: 20px 0px;
+}
+.relatos_textos{
+    display: flex;
+    flex-direction: row;
+}
+.relato{
+    margin: 20px 50px;
+}
 
 
 .rodape{
