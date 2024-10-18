@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho{
+    background-color: #5C3973;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.cabecalho nav{
+    flex-direction: row;
+    align-items: center;
+    display: flex;
+    gap: 37px;
+    
+}
+.cabecalho_logo{
+    padding-left: 140px;
+    padding-right: 500px;
+}
+.cabecalho_link{
+    color: #FFFBBF;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.importancia {
+    width: 1088px; /* Largura do container */
+    height: 218px; /* Altura do container */
+    background-color: #FFF2D6; /* Cor de fundo */
+    padding: 10px; /* Espaço interno */
+    border-radius: 30px; /* Bordas arredondadas */
+    opacity: 1; /* Visibilidade */
+    margin: 129px auto 10px; /* Centraliza horizontalmente e reduz o espaço abaixo para 10px */
+    display: flex; /* Para alinhar o conteúdo se necessário */
+    flex-direction: column; /* Alinha os itens em coluna */
+    position: relative; /* Para posicionar a imagem em relação ao contêiner */
+    align-items: center; /* Centraliza o conteúdo horizontalmente */
+}
+
+.importancia h1 {
+    color: #5C3973;
+    text-align: center;
+    font-size: 36px;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif; /* Fonte Montserrat */
+    max-width: 80%; /* Limita a largura do título */
+    margin: 0 auto; /* Centraliza o título horizontalmente */
+}
+
+.importancia p {
+    color: #5C3973;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif; /* Fonte Montserrat */
+    max-width: 90%; /* Limita a largura do parágrafo */
+    margin: 0 auto; /* Centraliza o parágrafo horizontalmente */
+}
+
+.importancia .imagem1 {
+    width: 63.97px; /* Define a largura da imagem */
+    height: 66.16px; /* Define a altura da imagem */
+    transform: rotate(30deg); /* Rotaciona a imagem no sentido oposto */
+    position: absolute; /* Posiciona a imagem de forma absoluta */
+    bottom: 10px; /* Distância do fundo */
+    right: 10px; /* Distância da direita */
+    transition: transform 0.3s; /* Transição suave ao passar o mouse */
+}
+
+.importancia .imagem1:hover {
+    transform: rotate(-50deg); /* Rotaciona a imagem ao passar o mouse para o outro lado */
+}
+
+
+
+
+
+.cachorros{
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+
+
+}
+
+.cachorros1{
+
+    display: flex;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 40px;
+    margin-top: 40px;
+
+}
+
+.cachorros2{
+
+    display: flex;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 40px;
+    margin-top: 40px;
+
+}
+
+
+.pipper{
+
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+    padding: 20px;
+    text-align: left;
+
+}
+
+.pipper p{
+
+color:#5C3973;
+}
+
+.pipper h3{
+
+    color:#5C3973;
+}
+
+.matilda{
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+    padding: 20px;
+    text-align: left;
+}
+
+.matilda p {
+    color: #5C3973;
+}
+
+.matilda h3 {
+    color: #5C3973;
+}
+
+.frederico {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+    padding: 20px;
+    text-align: left;
+}
+
+.frederico p{
+
+color: #5C3973;
+}
+
+.frederico h3{
+    color: #5C3973;
+}
+
+.duquesa {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+    padding: 20px;
+    text-align: left;
+}
+
+.duquesa p{
+
+    color: #5C3973;
+}
+
+.duquesa h3{
+    color: #5C3973;
+}
+
+.bruce { 
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+    padding: 20px;
+    text-align: left;
+}
+
+.bruce p{
+    color: #5C3973;
+}
+
+.bruce h3{
+    color: #5C3973;
+}
+
+.scooby {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+    padding: 20px;
+    text-align: left;
+}
+
+.scooby p{
+    color: #5C3973;
+
+}
+
+.scooby h3{
+    color: #5C3973;
+}
+
+.jojo {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+    padding: 20px;
+    text-align: left;
+}
+
+.jojo p{
+    color: #5C3973;
+}
+
+.jojo h3{
+    color: #5C3973;
+}
+
+.zeca{
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+    padding: 20px;
+    text-align: left;
+}
+
+.zeca p{
+    color: #5C3973;
+}
+.zeca h3{
+    color: #5C3973;
+}
+
+.adotar{
+    background-color: #5C3973;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 6px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    
+}
+
+.adotar a{
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.adotei{
+    width: 1241px; /* Largura */
+    height: 520px; /* Altura */
+    background-color: #FFF2D6; /* Cor de fundo suave */
+    padding: 30px; /* Espaço interno para evitar que o conteúdo fique colado nas bordas */
+    border-radius: 30px; /* Bordas arredondadas em todos os cantos */
+    opacity: 1; /* Totalmente visível */
+    margin: 50px auto; /* Margem acima e centraliza horizontalmente */
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidade */
+    display: flex; /* Usando flexbox para organizar o conteúdo */
+    flex-direction: column; /* Alinha os itens em coluna */
+    justify-content: center; /* Alinhamento vertical do conteúdo */
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color:#ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #5C3973;
+}
+
+label, select {
+    font-size: 18px;
+    color: #5C3973;
+    
+}
+
+#conteudo {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    background-color:#5C397333;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: #5C3973;
+
+}
+
+
+.adotei h2 {
+    font-family: 'Montserrat', sans-serif; /* Fonte Montserrat */
+    font-size: 35px; /* Tamanho maior para o título */
+    color: #5C3973; /* Cor do texto do título */
+    margin-bottom: 20px; /* Espaço abaixo do título */
+    text-align: left;
+}
+
+.adotei h3 {
+    font-family: 'Montserrat', sans-serif; /* Fonte Montserrat */
+    font-size: 30px; /* Tamanho do h3 */
+    color: #5C3973; /* Cor do texto do h3 */
+    margin: 15px 0; /* Espaço acima e abaixo do h3 */
+    text-align: left;
+}
+
+
+.adotei p {
+    font-family: 'Montserrat', sans-serif; /* Fonte Montserrat */
+    font-size: 20px; /* Tamanho do texto do parágrafo */
+    color: #5C3973; /* Cor do texto do parágrafo */
+    line-height: 1.5; /* Espaçamento entre linhas para melhor legibilidade */
+    text-align: center;
+}
+
+.adotei .imagem {
+    width: 6%; /* Define a largura da imagem para 100% da div */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 20px; /* Bordas arredondadas na imagem */
+    margin: 20px 0; /* Espaço acima e abaixo da imagem */
+    transform: rotate(-30deg); /* Inicialmente rotaciona a imagem -30 graus */
+    transition: transform 0.3s ease; /* Faz a transição da rotação de forma suave */
+    text-align: left;
+}
+
+.adotei .imagem:hover {
+    transform: rotate(50deg); /* Rotaciona a imagem para 50 graus ao passar o mouse */
+}
+
+
+
+.rodape{
+    display: flex;
+    background-color: #5C3973;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #FFF;
+}
+
+.rodape_link{
+    padding: 0px 10px;
+}
+
+.rodape_texto{
+    padding-right: 10px;
+}
