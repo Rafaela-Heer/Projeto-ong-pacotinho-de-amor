@@ -97,7 +97,7 @@
     position: relative;
     width: 1241px;
     height: 262px;
-    margin: 0 auto;
+    margin: 30px auto;
     background: #FFF2D6;
     border-radius: 30px;
     padding: 20px;
@@ -154,7 +154,7 @@
     position: relative; 
     width: 1241px;
     height: 262px;
-    margin: 0 auto;
+    margin: 30px auto;
     background: #FFF2D6;
     border-radius: 30px;
     padding: 20px;
@@ -286,4 +286,5 @@
     padding-right: 10px;
 
 }
+
 
