@@ -5,136 +5,331 @@
     font-family: "Roboto", sans-serif;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
-header {
-    width:100%;
-    height: 75px;
-    background: #5c3973;
+
+.cabecalho{
+    background-color: #5C3973;
     display: flex;
+    flex-direction: row;
     align-items: center;
-    justify-content: space-between;
-    padding: 5px 50px;
 }
-
- a{
-height: 100%;
-}
-
-img {
-    height: 100%;
-}
-
-nav{
+.cabecalho nav{
     display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 37px;
+    
 }
-
-ul{
-    list-style: none;
-    display: flex;
-    gap: 20px;
+.cabecalho_logo{
+    padding-left: 140px;
+    padding-right: 500px;
 }
-
-ul a{
-    color: #FFFBBF;
-    text-decoration: none;
+.cabecalho_link{
+    color: #FFF2D6;
+    font-family: Montserrat;
     font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
 }
-
-ul a:hover{
-    border-bottom: 2px solid #FFFBBF;
+nav a:hover{
+    border-bottom: 2px solid #FFF2D6;
     transition: 0.2s ease-in;
 
 }
 
-button {
-    background-color: rgba(92, 57, 115, 1);
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    display: inline-block;
-    font-size: 20px;
-    margin: 4px 2px;
-    border-radius: 10px;
-    cursor: pointer;
-    box-shadow: none;
-    position: absolute;
-}
-
- /*
- Observação- essa parte esta comentada para padronizar todas as páginas, esta área será usada no próximo cp.
-
-main{
-    display: flex;
-    flex-direction: column;
-}
-
-.row{
-    width: 100%;
-    display: flex;
-    padding: 50px;
-    justify-content: center;
-}
-
-#colabore{
-    width: 80%;
-    border-radius: 30px;
-    background: #FFFBBF;
-    padding: 20px 80px 40px 80px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-    position: relative;
-}
-
-#colabore h1{
-    color: rgba(92, 57, 115, 1);
-    font-size: 40px;
-}
 
 #colabore img{
     position: absolute;
-    bottom: 0;
-    left: 0;
-    height: 80px;
-    transform: rotate(-45deg);
+    top: 150px;
+    left: 40px;
+
 }
-
-#colabore p{
-    text-align: center;
-    width: 80%;
-    font-size: 18px;
-} 
-
-#colabore h1{
-    text-align: center;
-    width: 80%;
-    padding: 20px 80px 20px 80px;
-    
-}*/
-
-#colabore {
-    margin: 30px;
-}
-
-.container{
+.container1{
     display: flex;
-    margin: 50px;
-    align-items: center;
-
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 80px;
 }
-
-.column{
+.column1{
     flex: 1;
-    padding: 10px 20px 10px 20px;
-    height: 80px;
-    
+    margin: 10px;
+    padding: 30px;
+}
+#colabore h1{
+    width: 522px;
+    height: 156px;
+    color: #5C3973;
+    font-feature-settings: 'dlig' on;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Montserrat;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+#colabore button{
+    margin-top: 20px;
+    width: 188px;
+    height: 53px;
+    background: rgba(92, 57, 115, 0.80);
+    color: #FFF;
+    border-radius: 10px;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border: none;
+    margin-inline: 15px;
+}
+#colabore p{
+    display: flex;
+    width: 490px;
+    color: #5C3973;
+    font-family: Montserrat;
+    font-size: 17px;
+    padding: 41px 56px 34px 56px;
+    font-style: normal;
+    font-weight: 500;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    background: #FFF2D6;
 }
 
+
+.container2{
+    display: flex;
+    align-items: flex-start;
+    margin: 10px;
+    padding: 50px;
+    justify-content: space-between;
+
+}
+.column2{
+    flex: 1;
+    padding: 20px;
+    height: auto;
+    text-align: center;
+}
+#preventivo img{
+    margin-bottom: 20px;
+}
+#preventivo{
+    border-radius: 109px 34px;
+    background: #FFF2D6;
+    width: 390px;
+    height: 360px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 20px;
+    text-align: center;
+}
+#preventivo h2{
+    color: #5C3973;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+#preventivo p{
+    color: rgba(92, 57, 115, 0.7);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+#preventivo h1{
+    color: #5C3973;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+#alimento img{
+    margin-bottom: 20px;
+}
+#alimento{
+    border-radius: 180px;
+    background: #FFF2D6;
+    width: 390px;
+    height: 360px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 20px;
+    text-align: center;
+}
+#alimento h2{
+    color: #5C3973;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+#alimento p{
+    color: rgba(92, 57, 115, 0.7);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    margin-bottom: 10px;
+
+}
+#alimento h1{
+    color: #5C3973;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+#outrovalor img{
+    margin-bottom: 20px;
+}
+#outrovalor{
+    border-radius: 34px 109px;
+    background: #FFF2D6;
+    width: 390px;
+    height: 360px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 20px;
+    text-align: center;
+}
+#outrovalor h1{
+    color: #5C3973;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    margin: 10px 0;
+}
+#outrovalor h2{
+    color: #5C3973;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+#outrovalor p{
+    color: rgba(92, 57, 115, 0.7);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    margin-bottom: 10px;
+
+}
+#outrovalor input{
+    width: 200px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    border: 1px solid rgba(92, 57, 115, 0.70);
+    background: rgba(92, 57, 115, 0.15);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 10px;
+}
+.container2 button{
+    width: 176px;
+    height: 42px;
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    border-radius: 10px;
+    border-style: none;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    background: #5C3973;
+    margin-top: 20px;
+}
+
+
+.container3{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 50px;
+    background-color: #FFF2D6;
+    border-radius: 20px;
+}
+.container3 h1{
+    color: #5C3973;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.column3{
+    width: 48%;
+    padding: 20px;
+    box-sizing: border-box;
+}
 #cadastro {
-    padding: 180px 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: #FFF2D6;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+#cadastro h2{
+    color: rgba(92, 57, 115, 0.90);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 10px;
+}
+#cadastro form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+#cadastro label{
+    color: rgba(92, 57, 115, 0.60);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+#cadastro input{
+    border-radius: 10px;
+    border: 1px solid rgba(92, 57, 115, 0.70);
+    background: rgba(92, 57, 115, 0.15);
+    font-size: 15px;
+    padding: 10px;
+    width: 100%;
+}
+#cadastro p{
+    color: rgba(92, 57, 115, 0.70);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+#cadastro button{
+    width: 115px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #5C3973;
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    border: none;
 }
 
 .rodape{
