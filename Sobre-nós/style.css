@@ -10,7 +10,6 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    
 }
 
 .cabecalho nav{
@@ -24,12 +23,249 @@
     padding-left: 140px;
     padding-right: 500px;
 }
+
 .cabecalho_link{
     color: #FFFBBF;
     font-family: Montserrat;
     font-size: 14px;
     font-weight: 400;
     text-decoration: none;
+}
+
+.apresentacao {
+    position: relative;
+    width: 1241px;
+    height: 262px;
+    margin: 30px auto;
+    background: #FFF2D6;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.apresentacao img{
+    position: absolute;
+    width: 223px;
+    height: 195px;
+    left: 917px;
+    top: 58px;
+
+    background: url(logo2);  
+}
+
+
+
+.apresentacao h3 {
+    position: absolute;
+    width: 180px;
+    height: 29px;
+    left: 70px;
+    top: 40px;
+    white-space: nowrap; /* para não quebrar o texto*/
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #5C3973;
+
+
+}
+
+.apresentacao p {
+
+    position: absolute;
+    width: 731px;
+    height: 90px;
+    left: 68px;
+    top: 95px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+
+    color: #5C3973;
+
+
+}
+
+
+.historia {
+    position: relative;
+    width: 1241px;
+    height: 262px;
+    margin: 0 auto;
+    background: #FFF2D6;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.historia h3 {
+    position: absolute;
+    width: 180px;
+    height: 29px;
+    left: 996px;
+    top: 53px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: right;
+
+    color: #5C3973;
+
+
+}
+
+.historia p {
+    position: absolute;
+    width: 847px;
+    height: 108px;
+    left: 329px;
+    top: 99px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: right;
+
+    color: #5C3973;
+
+
+}
+
+.historia img {
+    position: absolute;
+    width: 262px;
+    height: 262px;
+    left: 47px;
+    top: 40px;
+    background: url(Sem título (2) (1));
+}
+
+
+.fundador {
+    position: relative; 
+    width: 1241px;
+    height: 262px;
+    margin: 0 auto;
+    background: #FFF2D6;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.fundador h3 {
+
+    position: absolute;
+    width: 151px;
+    height: 29px;
+    left: 529px;
+    top: 48px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+
+    color: #5C3973;
+
+
+}
+
+.fundador p {
+
+    position: absolute;
+    width: 1072px;
+    height: 108px;
+    left: 68px;
+    top: 100px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+
+    color: #5C3973;
+
+}
+
+
+.funcionamento {
+    position: relative;
+    width: 1241px;
+    height: 262px;
+    margin: 0 auto;
+    background: #FFF2D6;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.funcionamento h3 {
+    position: absolute;
+    width: 180px;
+    height: 29px;
+    left: 70px;
+    top: 40px;
+    white-space: nowrap; /* para não quebrar o texto*/
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #5C3973;
+}
+
+.funcionamento p {
+    position: absolute;
+    width: 731px;
+    height: 90px;
+    left: 68px;
+    top: 95px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+
+    color: #5C3973;
+}
+
+.funcionamento img {
+
+    position: absolute;
+    width: 288px;
+    height: 288px;
+    left: 923px;
+    top: 15px;
+
+    background: url(Sem título (3) (1).png);
+
+}
+
+
+.rodape {
+    display: flex;
+    background-color: #5C3973;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #FFF;
 }
 
 .rodape{
@@ -48,5 +284,6 @@
 }
 .rodape_texto{
     padding-right: 10px;
+
 }
 
