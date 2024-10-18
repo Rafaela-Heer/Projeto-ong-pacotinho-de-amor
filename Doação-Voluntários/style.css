@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-
 * {
     font-family: "Roboto", sans-serif;
     margin: 0;
@@ -116,7 +115,7 @@ nav a:hover{
     text-align: center;
 }
 #preventivo img{
-    margin-bottom: 20px;
+
 }
 #preventivo{
     border-radius: 109px 34px;
@@ -124,15 +123,19 @@ nav a:hover{
     width: 390px;
     height: 360px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+}
+#preventivoC{
     padding: 20px;
     text-align: center;
+    position: relative;
 }
+
 #preventivo h2{
     color: #5C3973;
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
     font-weight: 700;
-    margin-bottom: 10px;
 }
 #preventivo p{
     color: rgba(92, 57, 115, 0.7);
@@ -149,7 +152,8 @@ nav a:hover{
 }
 
 #alimento img{
-    margin-bottom: 20px;
+    position: relative;
+    bottom: 90px;
 }
 #alimento{
     border-radius: 180px;
@@ -183,7 +187,8 @@ nav a:hover{
 }
 
 #outrovalor img{
-    margin-bottom: 20px;
+    position: relative;
+    bottom: 90px;
 }
 #outrovalor{
     border-radius: 34px 109px;
@@ -247,34 +252,33 @@ nav a:hover{
 
 
 .container3{
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
     padding: 50px;
     background-color: #FFF2D6;
     border-radius: 20px;
+    margin: 30px;
+}
+.container-colunas{
+    display: flex;
 }
 .container3 h1{
     color: #5C3973;
-    text-align: center;
     font-family: Montserrat;
     font-size: 30px;
     font-style: normal;
     font-weight: 700;
     margin-bottom: 20px;
     width: 100%;
+    margin-top: 10px;
 }
 .column3{
     width: 48%;
     padding: 20px;
-    box-sizing: border-box;
 }
 #cadastro {
     display: flex;
     flex-direction: column;
     gap: 10px;
     background: #FFF2D6;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 #cadastro h2{
     color: rgba(92, 57, 115, 0.90);
@@ -285,10 +289,10 @@ nav a:hover{
     font-weight: 600;
     line-height: normal;
     margin-top: 10px;
+    margin-bottom: 20px;
 }
 #cadastro form {
-    display: flex;
-    flex-direction: column;
+    
     gap: 15px;
 }
 #cadastro label{
@@ -307,6 +311,8 @@ nav a:hover{
     font-size: 15px;
     padding: 10px;
     width: 100%;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-top: 10px;
 }
 #cadastro p{
     color: rgba(92, 57, 115, 0.70);
