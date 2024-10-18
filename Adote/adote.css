@@ -33,17 +33,17 @@
 }
 
 .importancia {
-    width: 1088px; /* Largura do container */
-    height: 218px; /* Altura do container */
-    background-color: #FFF2D6; /* Cor de fundo */
-    padding: 10px; /* Espaço interno */
-    border-radius: 30px; /* Bordas arredondadas */
-    opacity: 1; /* Visibilidade */
-    margin: 129px auto 10px; /* Centraliza horizontalmente e reduz o espaço abaixo para 10px */
-    display: flex; /* Para alinhar o conteúdo se necessário */
-    flex-direction: column; /* Alinha os itens em coluna */
-    position: relative; /* Para posicionar a imagem em relação ao contêiner */
-    align-items: center; /* Centraliza o conteúdo horizontalmente */
+    width: 1088px;
+    height: 218px;
+    background-color: #FFF2D6;
+    padding: 10px;
+    border-radius: 30px;
+    opacity: 1;
+    margin: 129px auto 10px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
 }
 
 .importancia h1 {
@@ -51,9 +51,9 @@
     text-align: center;
     font-size: 36px;
     padding: 10px;
-    font-family: 'Montserrat', sans-serif; /* Fonte Montserrat */
-    max-width: 80%; /* Limita a largura do título */
-    margin: 0 auto; /* Centraliza o título horizontalmente */
+    font-family: 'Montserrat', sans-serif; 
+    max-width: 80%;
+    margin: 0 auto;
 }
 
 .importancia p {
@@ -61,23 +61,23 @@
     text-align: center;
     font-size: 18px;
     padding: 10px;
-    font-family: 'Montserrat', sans-serif; /* Fonte Montserrat */
-    max-width: 90%; /* Limita a largura do parágrafo */
-    margin: 0 auto; /* Centraliza o parágrafo horizontalmente */
+    font-family: 'Montserrat', sans-serif;
+    max-width: 90%;
+    margin: 0 auto;
 }
 
 .importancia .imagem1 {
-    width: 63.97px; /* Define a largura da imagem */
-    height: 66.16px; /* Define a altura da imagem */
-    transform: rotate(30deg); /* Rotaciona a imagem no sentido oposto */
-    position: absolute; /* Posiciona a imagem de forma absoluta */
-    bottom: 10px; /* Distância do fundo */
-    right: 10px; /* Distância da direita */
-    transition: transform 0.3s; /* Transição suave ao passar o mouse */
+    width: 63.97px;
+    height: 66.16px;
+    transform: rotate(30deg); 
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    transition: transform 0.3s;
 }
 
 .importancia .imagem1:hover {
-    transform: rotate(-50deg); /* Rotaciona a imagem ao passar o mouse para o outro lado */
+    transform: rotate(-50deg);
 }
 
 
@@ -267,17 +267,17 @@ color: #5C3973;
 }
 
 .adotei{
-    width: 1241px; /* Largura */
-    height: 520px; /* Altura */
-    background-color: #FFF2D6; /* Cor de fundo suave */
-    padding: 30px; /* Espaço interno para evitar que o conteúdo fique colado nas bordas */
-    border-radius: 30px; /* Bordas arredondadas em todos os cantos */
-    opacity: 1; /* Totalmente visível */
-    margin: 50px auto; /* Margem acima e centraliza horizontalmente */
-    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidade */
-    display: flex; /* Usando flexbox para organizar o conteúdo */
-    flex-direction: column; /* Alinha os itens em coluna */
-    justify-content: center; /* Alinhamento vertical do conteúdo */
+    width: 1241px;
+    height: 520px;
+    background-color: #FFF2D6;
+    padding: 30px;
+    border-radius: 30px;
+    opacity: 1;
+    margin: 50px auto;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 section {
@@ -307,42 +307,42 @@ label, select {
 
 
 .adotei h2 {
-    font-family: 'Montserrat', sans-serif; /* Fonte Montserrat */
-    font-size: 35px; /* Tamanho maior para o título */
-    color: #5C3973; /* Cor do texto do título */
-    margin-bottom: 20px; /* Espaço abaixo do título */
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    color: #5C3973;
+    margin-bottom: 20px;
     text-align: left;
 }
 
 .adotei h3 {
-    font-family: 'Montserrat', sans-serif; /* Fonte Montserrat */
-    font-size: 30px; /* Tamanho do h3 */
-    color: #5C3973; /* Cor do texto do h3 */
-    margin: 15px 0; /* Espaço acima e abaixo do h3 */
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    color: #5C3973;
+    margin: 15px 0;
     text-align: left;
 }
 
 
 .adotei p {
-    font-family: 'Montserrat', sans-serif; /* Fonte Montserrat */
-    font-size: 20px; /* Tamanho do texto do parágrafo */
-    color: #5C3973; /* Cor do texto do parágrafo */
-    line-height: 1.5; /* Espaçamento entre linhas para melhor legibilidade */
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #5C3973;
+    line-height: 1.5;
     text-align: center;
 }
 
 .adotei .imagem {
-    width: 6%; /* Define a largura da imagem para 100% da div */
-    height: auto; /* Mantém a proporção da imagem */
-    border-radius: 20px; /* Bordas arredondadas na imagem */
-    margin: 20px 0; /* Espaço acima e abaixo da imagem */
-    transform: rotate(-30deg); /* Inicialmente rotaciona a imagem -30 graus */
-    transition: transform 0.3s ease; /* Faz a transição da rotação de forma suave */
+    width: 6%;
+    height: auto;
+    border-radius: 20px;
+    margin: 20px 0;
+    transform: rotate(-30deg);
+    transition: transform 0.3s ease;
     text-align: left;
 }
 
 .adotei .imagem:hover {
-    transform: rotate(50deg); /* Rotaciona a imagem para 50 graus ao passar o mouse */
+    transform: rotate(50deg);
 }
 
 
