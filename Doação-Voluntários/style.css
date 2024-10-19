@@ -42,7 +42,6 @@ nav a:hover{
     position: absolute;
     top: 150px;
     left: 40px;
-
 }
 .container1{
     display: flex;
@@ -68,33 +67,36 @@ nav a:hover{
     line-height: normal;
 
 }
-#colabore button{
-    margin-top: 20px;
-    width: 188px;
-    height: 53px;
-    background: rgba(92, 57, 115, 0.80);
+#colabore a{
+    position: relative;
+    top: 45px;
+    padding: 15px 30px;
+    bottom: 80px;
+    width: 51px;
+    height: 27px;
+    flex-shrink: 0;
     color: #FFF;
-    border-radius: 10px;
     text-align: center;
     font-family: Montserrat;
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    border: none;
+    background-color: rgba(92, 57, 115, 0.90);
+    border-radius: 10px;
     margin-inline: 15px;
+    text-decoration: none;
 }
 #colabore p{
-    display: flex;
-    width: 490px;
+    width: 378px;
     color: #5C3973;
     font-family: Montserrat;
     font-size: 17px;
-    padding: 41px 56px 34px 56px;
+    padding: 41px 56px 41px 56px;
     font-style: normal;
     font-weight: 500;
     justify-content: center;
-    align-items: center;
+    text-align: center;
     border-radius: 30px;
     background: #FFF2D6;
 }
@@ -114,47 +116,44 @@ nav a:hover{
     height: auto;
     text-align: center;
 }
-#preventivo img{
-
-}
 #preventivo{
     border-radius: 109px 34px;
     background: #FFF2D6;
     width: 390px;
     height: 360px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    
+    padding: 20px;
 }
 #preventivoC{
     padding: 20px;
     text-align: center;
     position: relative;
+    bottom: 90px;
 }
-
 #preventivo h2{
     color: #5C3973;
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
     font-weight: 700;
+    padding-top: 20px;
 }
 #preventivo p{
     color: rgba(92, 57, 115, 0.7);
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     margin-bottom: 10px;
+    margin-top: 15px;
 }
 #preventivo h1{
     color: #5C3973;
     font-family: 'Montserrat', sans-serif;
     font-size: 32px;
     font-weight: 700;
-    margin: 10px 0;
+    margin: 10px 0px 20px 0px;
+    margin-bottom: ;
 }
 
-#alimento img{
-    position: relative;
-    bottom: 90px;
-}
+
 #alimento{
     border-radius: 180px;
     background: #FFF2D6;
@@ -164,12 +163,19 @@ nav a:hover{
     padding: 20px;
     text-align: center;
 }
+#alimentoC{
+padding: 20px;
+text-align: center;
+position: relative;
+bottom: 90px;
+}
 #alimento h2{
     color: #5C3973;
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
     font-weight: 700;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
+    padding-top: 20px;
 }
 #alimento p{
     color: rgba(92, 57, 115, 0.7);
@@ -183,10 +189,12 @@ nav a:hover{
     font-family: 'Montserrat', sans-serif;
     font-size: 32px;
     font-weight: 700;
-    margin: 10px 0;
+    margin: 10px 0px 30px 0px;
 }
 
-#outrovalor img{
+#outrovalorC{
+    padding: 20px;
+    text-align: center;
     position: relative;
     bottom: 90px;
 }
@@ -199,19 +207,13 @@ nav a:hover{
     padding: 20px;
     text-align: center;
 }
-#outrovalor h1{
-    color: #5C3973;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 32px;
-    font-weight: 700;
-    margin: 10px 0;
-}
 #outrovalor h2{
     color: #5C3973;
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
     font-weight: 700;
     margin-bottom: 10px;
+    padding-top: 20px;
 }
 #outrovalor p{
     color: rgba(92, 57, 115, 0.7);
@@ -225,7 +227,7 @@ nav a:hover{
     height: 40px;
     flex-shrink: 0;
     border-radius: 12px;
-    border: 1px solid rgba(92, 57, 115, 0.70);
+    border: none;
     background: rgba(92, 57, 115, 0.15);
     text-align: center;
     font-family: Montserrat;
@@ -234,8 +236,9 @@ nav a:hover{
     font-weight: 700;
     line-height: normal;
     margin-top: 10px;
+    margin-bottom: 20px;
 }
-.container2 button{
+.container2 a{
     width: 176px;
     height: 42px;
     color: #FFF;
@@ -246,8 +249,9 @@ nav a:hover{
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
-    background: #5C3973;
-    margin-top: 20px;
+    background-color: #5C3973;
+    padding: 15px 30px;
+    text-decoration: none;
 }
 
 
@@ -255,10 +259,12 @@ nav a:hover{
     padding: 50px;
     background-color: #FFF2D6;
     border-radius: 20px;
-    margin: 30px;
+    margin: 95px;
 }
 .container-colunas{
     display: flex;
+    text-align: center;
+    justify-content: space-between;
 }
 .container3 h1{
     color: #5C3973;
@@ -269,10 +275,11 @@ nav a:hover{
     margin-bottom: 20px;
     width: 100%;
     margin-top: 10px;
+    text-align: center;
 }
 .column3{
-    width: 48%;
-    padding: 20px;
+    width: 38%;
+    padding: 40px;
 }
 #cadastro {
     display: flex;
@@ -280,9 +287,12 @@ nav a:hover{
     gap: 10px;
     background: #FFF2D6;
 }
+#cadastro img{
+    position: absolute;
+    top: 1250px;
+}
 #cadastro h2{
     color: rgba(92, 57, 115, 0.90);
-    text-align: center;
     font-family: Montserrat;
     font-size: 24px;
     font-style: normal;
@@ -290,10 +300,8 @@ nav a:hover{
     line-height: normal;
     margin-top: 10px;
     margin-bottom: 20px;
-}
-#cadastro form {
-    
-    gap: 15px;
+    margin-right: 95px;
+    text-align: start;
 }
 #cadastro label{
     color: rgba(92, 57, 115, 0.60);
@@ -306,7 +314,7 @@ nav a:hover{
 }
 #cadastro input{
     border-radius: 10px;
-    border: 1px solid rgba(92, 57, 115, 0.70);
+    border: none;
     background: rgba(92, 57, 115, 0.15);
     font-size: 15px;
     padding: 10px;
@@ -314,9 +322,13 @@ nav a:hover{
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     margin-top: 10px;
 }
+#h2comoser {
+    margin-left: 30px;
+}
 #cadastro p{
+    width: 378px;
+    height: 340px;
     color: rgba(92, 57, 115, 0.70);
-    text-align: center;
     font-family: Montserrat;
     font-size: 14px;
     font-style: normal;
@@ -330,13 +342,15 @@ nav a:hover{
     border-radius: 10px;
     background: #5C3973;
     color: #FFF;
-    text-align: center;
+    justify-items: center;
     font-family: Montserrat;
     font-size: 15px;
     font-style: normal;
     font-weight: 700;
     border: none;
+    margin-top: 20px;
 }
+
 
 .rodape{
     display: flex;
