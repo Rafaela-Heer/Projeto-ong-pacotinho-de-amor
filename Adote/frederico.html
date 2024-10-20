@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pacotinho de Amor</title>
+    <link rel="stylesheet" href="pipper.css">
+    <link rel="shortcut icon" href="./Assets/logo-branco.png" type="image/x-icon">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <a href="#"><img src="./Assets/logo-branco.png" alt="Logo" width="100px" class="cabecalho_logo"> </a>
+        <nav>
+            <a href="../Home/index.html" class="cabecalho_link">HOME</a>
+            <a href="../Adote/adote.html" class="cabecalho_link">ADOTE</a>
+            <a href="../Home/index.html" class="cabecalho_link">CONTATOS</a>
+            <a href="../Eventos/eventos.html" class="cabecalho_link">EVENTOS</a>
+            <a href="../Doação-Voluntários/doacaovoluntarios.html" class="cabecalho_link">DOAÇÃO E VOLUNTÁRIOS</a>
+            <a href="../Sobre-nós/sobrenos.html" class="cabecalho_link">SOBRE NÓS</a>   
+        </nav>
+    </header>
+
+    <div class="importancia">
+        <h1>A importância de adotar!</h1>
+        <p>Adotar um novo animal é um ato de compaixão que proporciona uma segunda chance a seres que muitas vezes foram abandonados. Além de ajudar a reduzir a superpopulação em abrigos, a adoção promove uma conexão emocional profunda entre o adotante e o animal, que retribui com amor e lealdade. Ter um animal de estimação pode melhorar o bem-estar mental, aliviando o estresse e a solidão. No entanto, é importante lembrar que adotar também envolve responsabilidade, com compromisso em cuidar e proteger o novo amigo. Essa decisão não só transforma a vida do animal, mas também traz alegria e satisfação ao adotante.</p>
+        <img src="./Assets/patinha.png" alt="Pata roxa" class="imagem1">
+    </div>
+
+    <div class="container">
+        <a href="adote.html">
+            <img id="voltar" class="voltar" src="./Assets/angulovoltar.png" alt="Imagem angulo voltar">
+        </a>
+
+        <div class="conteudo-flex">
+            <div class="cachorro">
+                <div class="pipper">
+
+                    <img id="frederico" src="./Assets/dog3frederico.png" alt="Foto adoção para Frederico">
+
+                    <h3>Frederico</h3>
+
+                    <div class="inf">
+                        <div class="spacing-letter"> 
+                            <p>Macho</p>
+                            <p>2 meses</p>
+                            <p>Castrado</p>
+                            <p>Vacinado</p>
+                        </div>
+                        <div class="porte">
+                            <img id="porte" src="./Assets/porte-medio.png" alt="Foto Porte Médio">
+                            <p>Porte Médio</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+ 
+ 
+            <div class="contatos">
+                <div class="form">
+                <h1>Preencha com seus dados</h1>
+                <p>Entraremos em contato para completar a adoção o quanto antes!</p>
+
+                <form id="contact-form">
+                    <div class="preencher">
+                    <div class="area">
+                        <input type="text" id="nome" name="nome" placeholder="Nome"> 
+                    </div>
+                    <div id="error-name" class="error-input"></div>
+
+                    <div class="area">
+                        <input type="text" id="sobrenome" name="sobrenome" placeholder="Sobrenome"> 
+                    </div>
+                    <div id="error-surname" class="error-input"></div>
+                    <div class="area">
+                        <input type="email" id="email" name="email" placeholder="E-mail"> 
+                    </div>
+                    <div id="error-email" class="error-input"></div>
+                    <div class="area">
+                        <input type="text" id="numero" name="numero" placeholder="Número de telefone">
+                    </div>
+                    <div id="error-phone" class="error-input"></div>
+                    <button type="submit">Enviar</button>
+                </form>
+                <div id="response-message" class="response-message"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="adotei">
+        <h2>ADOTEI E AGORA?</h2>
+        <section>
+            <h3>Guia para novos adotantes</h3>
+            <label for="categoria">Escolha uma categoria:</label>
+            <select id="categoria" onchange="mostrarConteudo()">
+                <option value="">Selecione uma categoria</option>
+                <option value="cuidados">Cuidados básicos</option>
+                <option value="alimentacao">Alimentação</option>
+                <option value="adaptacao">Adaptação</option>
+                <option value="saude">Saúde</option>
+            </select>
+            <div id="conteudo">
+                <p>Selecione uma categoria para ver o conteúdo.</p>
+            </div>
+        </section>
+        <img src="./Assets/patinha.png" alt="Pata roxa" class="imagem">
+    </div>
+
+    <script src="pipper.js"></script>
+
+    <footer class="rodape">
+        <p class="rodape_texto">Desenvolvido por Julia Hadja, Julia Sayuri, Maria Eduarda Ferrés, Rafaela Heer, Gabriela Queiroga |
+        </p>
+        <a href="https://www.instagram.com/projeto.pacotinhodeamor/" class="rodape_link" target="_blank"><img src="instagram.png" alt="logo instagram" width="18px"></a>    
+        <a href="https://www.facebook.com/p/Projeto-Pacotinho-de-Amor-100078099393909/?paipv=0&eav=AfZ5hXmwZvPUtA-HMuxacpr-Ojmc_72OMP7Wm4W5G58YwCWk02ut266IFCesBzVTLms&_rdr" class="rodape_link" target="_blank"><img src="facebook-branco.png" alt="logo facebook" width="18px"></a>    
+        <a href="https://wa.me/11994896555" class="rodape_link" target="_blank"><img src="whatsapp-branco.png" alt="logo whatsapp" width="18px"></a>
+    </footer>
+</body>
+</html>
