@@ -1,9 +1,7 @@
-// Função para exibir o alert com informações do animal
 function showAnimalInfo(nome, idade, porte, sexo, castrado, vacinado) {
     alert("Nome: " + nome + "\nIdade: " + idade + "\nPorte: " + porte + "\nSexo: " + sexo + "\nCastrado: " + castrado + "\nVacinado: " + vacinado );
 }
 
-// Adicionando os eventos de clique para cada imagem
 document.getElementById("pipper").onclick = function() {
     showAnimalInfo("Pipper", "2 meses", "Porte Pequeno", "Fêmea","Sim", "Sim");
 };
