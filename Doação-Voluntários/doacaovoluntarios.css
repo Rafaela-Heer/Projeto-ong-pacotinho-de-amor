@@ -25,16 +25,15 @@
     padding-right: 500px;
 }
 .cabecalho_link{
-    color: #FFF2D6;
+    color: #FFFBBF;
     font-family: Montserrat;
     font-size: 14px;
     font-weight: 400;
     text-decoration: none;
 }
 nav a:hover{
-    border-bottom: 2px solid #FFF2D6;
+    border-bottom: 2px solid #FFFBBF;
     transition: 0.2s ease-in;
-
 }
 
 
@@ -108,7 +107,6 @@ nav a:hover{
     margin: 10px;
     padding: 50px;
     justify-content: space-between;
-
 }
 .column2{
     flex: 1;
@@ -118,10 +116,10 @@ nav a:hover{
 }
 #preventivo{
     border-radius: 109px 34px;
-    background: #FFF2D6;
+    background: #FFF;
     width: 390px;
     height: 360px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 13px 40px 0px rgba(0, 0, 0, 0.20);
     padding: 20px;
 }
 #preventivoC{
@@ -149,24 +147,23 @@ nav a:hover{
     font-family: 'Montserrat', sans-serif;
     font-size: 32px;
     font-weight: 700;
-    margin: 10px 0px 20px 0px;
+    margin-bottom: 20px;
 }
-
 
 #alimento{
     border-radius: 180px;
-    background: #FFF2D6;
+    background: #FFF;
     width: 390px;
     height: 360px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 13px 40px 0px rgba(119, 119, 119, 0.20);
     padding: 20px;
     text-align: center;
 }
 #alimentoC{
-padding: 20px;
-text-align: center;
-position: relative;
-bottom: 90px;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    bottom: 90px;
 }
 #alimento h2{
     color: #5C3973;
@@ -199,10 +196,10 @@ bottom: 90px;
 }
 #outrovalor{
     border-radius: 34px 109px;
-    background: #FFF2D6;
+    background: #FFF;
     width: 390px;
     height: 360px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 5px 13px 40px 0px rgba(0, 0, 0, 0.25);
     padding: 20px;
     text-align: center;
 }
@@ -235,7 +232,7 @@ bottom: 90px;
     font-weight: 700;
     line-height: normal;
     margin-top: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 .container2 a{
     width: 176px;
