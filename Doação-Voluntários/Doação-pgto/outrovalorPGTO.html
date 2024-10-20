@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../images/logo ong.png" type="image/x-icon">
     <title>Pacotinho de Amor</title>
-    <link rel="stylesheet" href="alimento.css">
+    <link rel="stylesheet" href="../Doação-pgto/outrovalorPGTO.css">
 </head>
 <body>
 
@@ -40,49 +40,90 @@
 
         <div class="seta">
             <a href="../doacaovoluntarios.html">
-                <img src="../images/seta_.png" alt="">
+                <img src="../images/seta_.png" alt="seta">
             </a>
         </div>
 
         <div class="container">
             <div class="column1">
-                <div id="alimento">
-                    <div id="alimentoC">
-                        <img src="../images/alimento.png" alt="ração">
-                        <h2>Kit alimentação</h2>
-                        <p>Valor médio de um saco de ração</p> 
-                        <h1>R$150</h1>
+                <div id="outrovalor">
+                    <div id="outrovalorC">
+                        <img src="../images/dinheiro.png" alt="ração">
+                        <h2>Outro valor</h2>
+                        <form action="">
+                            <label for="nome"></label>
+                            <input type="text" id="" placeholder="Digite o valor">
+                        </form>
                     </div>
                 </div>
             </div>
 
             <div class="column1">
-                <div id="alimentotxt1">
+                <div id="outrovalortxt1">
                     <img src="../images/number1.png" alt="número 1">
                     <p>Escolha a forma de pagamento</p>
                 </div>
-                <div class="alimento-options">
-                    <div id="alimento-options1">
-                        <a href="../Doação-pgto/alimentoPGTO.html">
+                <div class="outrovalor-options">
+                    <div id="outrovalor-options1">
+                        <a href="../Doação-pgto/outrovalorPGTO.html">
                             <img src="../images/img-cartao-credito.png" alt="logo cartão">
                             <p>Cartão de Crédito</p>
                         </a>
                     </div>
-                    <div id="alimento-options1">
-                        <div id="alimento-options1pix">
-                            <a href="../Doação-pgto/alimentoPGTO2.html">
+                    <div id="outrovalor-options1">
+                        <div id="outrovalor-options1pix">
+                            <a href="../Doação-pgto/outrovalorPGTO2.html">
                                 <img src="../images/img-pix.png" alt="logo pix">
                                 <p>Pix</p>
                             </a>
                         </div>
                     </div>
                 </div>
-                <div id="alimentotxt2">
-                    <img src="../images/number2 claro.png" alt="número 2 clarinho">
-                    <p>Finalize o pagamento</p>
+                <div id="outrovalortxt2">
+                    <div id="txt2">
+                        <img src="../images/number2.png" alt="número 2">
+                        <p>Insira os dados do cartão</p>
+                    </div>
+                    <div class="containercartao">
+                        <div id="column2">
+                            <form>
+                                <label for="nome"></label>
+                                <input type="text" id="" placeholder="Nome">
+                                <label for="numero"></label>
+                                <input type="number" id="" placeholder="Número do cartão">
+                                <label for="validade"></label>
+                                <input type="datetime" id="" placeholder="Validade">
+                                <label for="numero"></label>
+                                <input type="number" id="" placeholder="CVC">
+                            </form>
+                        </div>
+                    
+                        <div id="column2">
+                            <img src="../images/cartao-credito.png" alt="">
+                        </div>
+                    </div>    
+                    <div id="outrovalortxt3">
+                            <img src="../images/number3.png" alt="número 3">
+                            <p>Informe o endereço de cobrança</p>
+                            <div id="local"> 
+                                <form>
+                                    <label for="endereço"></label>
+                                    <input type="text" id="" placeholder="Endereço">
+                                        <div id="colunalocal">
+                                            <label for="numero"></label>
+                                            <input type="number" id="" placeholder="Número">
+                                            <label for="complemento"></label>
+                                            <input type="text" id="" placeholder="Complemento">
+                                        </div>
+                                </form>  
+                            </div>
+                        </div>
                 </div>
+
                 <div id="pagamento">
-                    <p>Confirmar pagamento</p>
+                    <a href="../doacaovoluntarios.html">
+                        <p>Confirmar pagamento</p>
+                    </a>
                 </div>
             </div>
         </div>

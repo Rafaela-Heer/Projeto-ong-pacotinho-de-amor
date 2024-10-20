@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+.cabecalho{
+    background-color: #5C3973;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.cabecalho nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 37px;
+    
+}
+.cabecalho_logo{
+    padding-left: 140px;
+    padding-right: 500px;
+}
+.cabecalho_link{
+    color: #FFFBBF;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+}
+nav a:hover{
+    border-bottom: 2px solid #FFFBBF;
+    transition: 0.2s ease-in;
+}
+
+
+.sessao{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#sessao_colabore{
+    width: 1088px;
+    height: 218px;
+    border-radius: 30px;
+    background: #FFF2D6;
+    margin: 40px 0px;
+}
+#sessao_colabore h2{
+    color: #5C3973;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+#colabore_img-texto{
+    display: flex;
+    flex-direction: row;
+
+}
+#colabore_img-texto img{
+    width: 63.972px;
+    height: 66.163px;
+
+    margin: 90px 22px 12px 50px;
+}
+#colabore_img-texto p{
+    color: #5C3973;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 400;
+
+    width: 864px;
+    text-align: center;
+}
+
+.seta{
+    margin: 0px 0px 0px 90px;
+}
+
+.container{
+    display: flex;
+    justify-items: center;
+    margin: 10px 120px;
+    padding: 20px;
+    justify-content: space-around;
+    width: 1350px;
+}
+.column1{
+    flex: 1;
+    padding: 10px;
+    height: auto;
+    text-align: center;
+}
+#alimento{
+    border-radius: 109px 34px;
+    background: #FFF;
+    width: 390px;
+    height: 360px;
+    box-shadow: 0px 13px 40px 0px rgba(0, 0, 0, 0.20);
+    padding: 20px;
+    margin: 20px;
+}
+#alimentoC{
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    bottom: 90px;
+}
+#alimento h2{
+    color: #5C3973;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    padding-top: 20px;
+}
+#alimento p{
+    color: rgba(92, 57, 115, 0.7);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+#alimento h1{
+    color: #5C3973;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    margin: 10px 0px 20px 0px;
+}
+
+
+#alimentotxt1{
+    color: #5C3973;
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+}
+#alimentotxt1 p{
+    margin: 5px 0px 0px 10px;
+    font-size: 26px;
+}
+.alimento-options{
+    display: flex;
+    margin-top: 20px;
+    gap: 30px;
+    margin-left: 20px;
+}
+#alimento-options1{
+    display: flex;
+    width: 150px;
+    height: 45px;
+    padding: 17px 12px 17px 13px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 10px;
+    border: 1px solid rgba(92, 57, 115, 0.20);
+    background: #FFF;
+    box-shadow: 0px 7px 15px 0px rgba(0, 0, 0, 0.10);
+}
+#alimento-options1 img{
+    position: relative;
+    width: 40px;
+    height: 40px;
+}
+#alimento-options1 p{
+    color: #5C3973;
+    font-family: Montserrat;
+    font-size:20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+#alimento-options1pix p{
+    color: #5C3973;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 5px 0px 0px 15px;
+}
+#alimento-options1 a{
+    text-decoration: none;
+    display: flex;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+#alimento-options1:hover{
+    background-color: #D1C2F1;
+    transform: scale(1.05);
+}
+#alimentotxt2{
+    color: #5C3973;
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    margin-top: 40px;
+}
+#alimentotxt2 p{
+    margin: 0px 0px 0px 10px;
+    font-size: 26px;
+    color: #5C3973;
+    font-size: 24px;
+    margin-top: 5px;
+}
+#pagamento{
+    display: inline-flex;
+    padding: 12px 21px 12px 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background: #5C3973;
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 20px;
+}
+#pagamento a{
+    text-decoration: none;
+    color: #FFF;
+}
+
+
+.rodape{
+    display: flex;
+    background-color: #5C3973;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #FFF;
+}
+.rodape_link{
+    padding: 0px 10px;
+}
+.rodape_texto{
+    padding-right: 10px;
+}
