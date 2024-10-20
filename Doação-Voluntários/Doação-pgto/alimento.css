@@ -31,9 +31,8 @@
     font-weight: 400;
     text-decoration: none;
 }
-nav a:hover{
-    border-bottom: 2px solid #FFFBBF;
-    transition: 0.2s ease-in;
+.cabecalho_link:hover{
+    color: #FFF;
 }
 
 

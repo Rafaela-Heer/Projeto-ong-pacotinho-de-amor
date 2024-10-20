@@ -31,9 +31,8 @@
     font-weight: 400;
     text-decoration: none;
 }
-nav a:hover{
-    border-bottom: 2px solid #FFFBBF;
-    transition: 0.2s ease-in;
+.cabecalho_link:hover{
+    color: #FFF;
 }
 
 
@@ -155,7 +154,7 @@ nav a:hover{
     background: #FFF;
     width: 390px;
     height: 360px;
-    box-shadow: 0px 13px 40px 0px rgba(119, 119, 119, 0.20);
+    box-shadow: 0px 13px 40px 0px rgba(0, 0, 0, 0.20);
     padding: 20px;
     text-align: center;
 }
@@ -199,7 +198,7 @@ nav a:hover{
     background: #FFF;
     width: 390px;
     height: 360px;
-    box-shadow: 5px 13px 40px 0px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 13px 40px 0px rgba(0, 0, 0, 0.20);
     padding: 20px;
     text-align: center;
 }
@@ -315,7 +314,6 @@ nav a:hover{
     font-size: 15px;
     padding: 10px;
     width: 100%;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     margin-top: 15px;
 }
 #metadeform{
@@ -335,6 +333,7 @@ nav a:hover{
     font-weight: 600;
     line-height: normal;
 }
+
 #cadastro button{
     width: 115px;
     height: 40px;

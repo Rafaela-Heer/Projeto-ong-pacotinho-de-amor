@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
-    font-family: "Roboto", sans-serif;
+    font-family: Montserrat;
     margin: 0;
     padding: 0;
 }
@@ -31,9 +31,8 @@
     font-weight: 400;
     text-decoration: none;
 }
-nav a:hover{
-    border-bottom: 2px solid #FFFBBF;
-    transition: 0.2s ease-in;
+.cabecalho_link:hover{
+    color: #FFF;
 }
 
 

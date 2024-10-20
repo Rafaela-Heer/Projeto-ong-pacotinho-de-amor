@@ -31,6 +31,9 @@
     font-weight: 400;
     text-decoration: none;
 }
+.cabecalho_link:hover{
+    color: #FFF;
+}
 
 .apresentacao {
     position: relative;

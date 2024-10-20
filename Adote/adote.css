@@ -33,6 +33,9 @@ body {
   font-weight: 400;
   text-decoration: none;
 }
+.cabecalho_link:hover{
+  color: #FFF;
+}
 
 .importancia {
   width: 1088px;
