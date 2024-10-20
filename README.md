@@ -32,7 +32,10 @@
  - **Sobre Nós:** Apresenta o projeto da ONG, sobre sua história, seu funcionamento e principais fundadores.
 
 ## Figma
+Web:
 https://www.figma.com/design/sQLWGcTAiICvJFcTauOPYQ/Projeto-Pacotinho-de-Amor---Desktop?node-id=0-1&t=wgvo1RIvO7S0nzTI-1
+Mobile:
+https://www.figma.com/design/sDQiWvDdrdIX6hOrvamw2Q/Projeto-Pacotinho-de-Amor---Mobile?node-id=0-1&t=Lg6ZDJvtLluCWSgS-1
 
 ## Atualizações Recentes
 Principais mudanças e melhorias feitas desde a última atualização do projeto:
