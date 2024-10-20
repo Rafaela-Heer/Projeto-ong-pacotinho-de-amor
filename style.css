@@ -319,6 +319,20 @@ button p{
     font-size: 13px;
     font-weight: 500;
 }
+.erro{
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: red;
+    color: #FFF;
+    font-family: Montserrat;
+    text-align: center;
+
+}
+.erro:empty{
+    padding: 0px;
+    background-color: transparent;
+    color: #FFF;
+}
 
 .rodape{
     display: flex;

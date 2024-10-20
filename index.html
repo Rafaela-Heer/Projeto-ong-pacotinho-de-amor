@@ -6,6 +6,7 @@
     <title>Pacotinho de Amor</title>
     <link rel="stylesheet" href="./style.css">
     <link rel="icon" href="../logo2.png" type="image/png">
+    
 </head>
 <body>
     <header>
@@ -90,16 +91,17 @@
                 <h4>Nos deixe um feedback!</h4>
             </div>
             <div  class="form">
-                <form>
+                <div class="erro" id="erro"></div>
+                <form onsubmit="enviar(event)">
                     <div class="preencher">
                         <div class="area">
-                            <input type="text" id="nome" name="nome" placeholder="Nome"> 
+                            <input type="text" id="nome" name="nome" placeholder="Nome">                           
                         </div>
                         <div class="area">
-                            <input type="email" id="email" name="email" placeholder="E-mail"> 
+                            <input type="email" id="email" name="email" placeholder="E-mail">                            
                         </div>
                         <div class="area">
-                            <input type="text" id="numero" name="numero" placeholder="Número de telefone">
+                            <input type="text" id="numero" name="numero" placeholder="Número de telefone">                          
                         </div>
                         <div>
                             <button type="submit"><p>Enviar</p></button> 
@@ -108,10 +110,12 @@
                     <br>
                     <div class="mensagem">
                         <div>
-                            <select name="assunto" id="assunto" placeholder="Assunto">
-                                <option value="elogio">Sugestão</option>
-                                <option value="reclamacao">Reclamação</option>
-                                <option value="sugestao">Elogio</option>
+                            <select name="assunto" id="assunto" onclick="enviar" placeholder="Assunto">
+                                <option value="adocao">Adoção</option>
+                                <option value="comoAjudar">Como ajudar?</option>
+                                <option value="proximosEventos">Próximos eventos</option>
+                                <option value="sugestao">Sugestão</option>
+                                <option value="outros">Outros</option>
                             </select>
                         </div>
                         <div class="areatexto">
@@ -122,6 +126,7 @@
             </div>
         </div>    
     </main>
+    <script src="./script.js"></script>
     <footer class="rodape">
         <p class="rodape_texto">Desenvolvido por Julia Hadja, Julia Sayuri, Maria Eduarda Ferrés, Rafaela Heer, Gabriela Queiroga |
         </p>
