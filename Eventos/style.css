@@ -1,16 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
-*{
-    margin: 0;
-    padding: 0;
-}
+
 
 .cabecalho{
     background-color: #5C3973;
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin: -8px;
 
 }
 
@@ -42,17 +40,12 @@
 
 .meio{
     position: relative;
-    left: 220px;
-    bottom: 40px;
+    left: 242px;
+    bottom: 70px;
     transform: rotate(50.671deg);
 
 }
 
-.baixo{
-    position: relative;
-    right: 440px;
-    bottom: 40px;
-}
 
 .conteudo{
     margin: 100px;
@@ -68,9 +61,8 @@
     border-radius: 30px;
     font-family: Inter;
     font-weight: 700;
-    font-size: 24px;
+    font-size: 30px;
     margin: 20px 176px 30px 176px;
-    
 }
 
 .conteudo-principal-titulo{
@@ -85,7 +77,7 @@
 .conteudo-paragrafo{
     margin: 55px 162px 77px 162px;
     font-family: Inter;
-    font-size: 15px;
+    font-size: 22px;
     font-weight: 400;
     line-height: normal;
     color: #5C3973;
@@ -106,26 +98,34 @@
     border-radius: 30px;
     background: #FFF;
     box-shadow: 0px 15px 50px 0px rgba(0, 0, 0, 0.10);
-    margin: 0px 287px 0px 287px;
+    margin: 0px 159px;
     display: flex;
     flex-direction: row;
     gap: 60px;
     color: #5C3973;
     font-family: 'Montserrat';
+
 }
 
+.cards-eventos {
+    margin: 50px;
+}
 
 .position-esquerda{
     position: relative;
-    left: 200px;
-    top: 40px;
 }
 .position-direita{
     position: relative;
-    left: 100px;
-    top: 40px;
+    left: 68px;
 }
 
+
+.caixa-novembro {
+    display: flex;
+    align-items: stretch;
+    gap: 69px;
+    margin-bottom: -78px;
+}
 
 
 .rodape{
@@ -138,6 +138,7 @@
     font-size: 14px;
     font-weight: 400;
     color: #FFF;
+    margin: -8px;
 }
 .rodape_link{
     padding: 0px 10px;
